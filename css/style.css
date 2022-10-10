@@ -49,7 +49,7 @@ header {
 }
 
 .hero {
-  background-image: url(./images/hero-bgd.jpg);
+  background-image: url(../images/hero-bgd.jpg);
   background-repeat: no-repeat;
   /* background-size: contain; */
   background-color: #996b60;
