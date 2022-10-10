@@ -1,8 +1,8 @@
-/* body {
+body {
   font-family: "Roboto", sans-serif;
-  color: var(--basic-text);
-  background-color: var(--color-logo-wh);
-  font-size: 14px;
+  color: #000000;
+  background-color: #ffffff;
+  font-size: 18px;
 }
 
 h1,
@@ -26,8 +26,48 @@ img {
   display: block;
 }
 
-.container {
+/* .container {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
 } */
+section,
+header {
+  max-width: 1440px;
+}
+
+header {
+  background-color: #191919;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.header_text {
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero {
+  background-image: url(/images/hero-bgd.jpg);
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+  background-color: #996b60;
+  color: #ffffff;
+  height: 800px;
+}
+.hero_menu {
+  padding-top: 25px;
+}
+
+.hero_menu_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.hero_menu_item {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
